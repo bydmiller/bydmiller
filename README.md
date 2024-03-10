@@ -1,16 +1,14 @@
-### Hi there 👋
+## Hey 👋, I'm [Sukhman](https://sukhmansingh.netlify.app/)
 
-<!--
-**sukhmancs/sukhmancs** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I am a computer science student at Mohawk College. Currently I am trying to recreate [Amber](https://www.llm360.ai/). 
 
-Here are some ideas to get you started:
+⚡️ A Few Quick Facts
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    🧐 Learning about serverless architectures, distributed systems, and a bit of ML.
+    👨‍💻 Most of my projects are available on Github.    
+    💬 Ping me about react, security, anime, and cloud stuff.
+    📙 Check out my [resume](https://drive.google.com/file/d/1PoHIYvqzAELtDhoVK7iMaxJgcTrIPx_B/view?usp=sharing).    
+
+---
+
+🚀 Some Tools I Use
