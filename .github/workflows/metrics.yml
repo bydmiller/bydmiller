@@ -19,9 +19,11 @@ jobs:
         with:
           filename: general.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          base: header, activity, community, repositories
+          base: header
           base_hireable: yes
           config_timezone: America/Toronto
+          base_indepth: yes
+          config_order: base.header, isocalendar, languages, topics
           plugin_introduction: yes
           plugin_introduction_title: yes
           plugin_calendar: yes
