@@ -19,10 +19,10 @@ jobs:
         with:
           filename: general.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          base: header, activity, community, repositories
+          base: header, activity, repositories
           config_timezone: America/Toronto
           base_indepth: yes
-          config_order: base.header, base.activity, base.community, base.repositories, isocalendar, languages, topics
+          config_order: base, isocalendar, languages, topics
           plugin_repositories: yes
           plugin_repositories_featured: nixos-config-main, react-native-instagram-clone, amber-train
           plugin_isocalendar: yes
