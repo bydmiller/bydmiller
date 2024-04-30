@@ -42,6 +42,7 @@ jobs:
           plugin_topics_limit: 0
           plugin_topics_mode: icons
           plugin_topics_sort: stars
+          plugin_isocalendar: yes
 
       - name: 🦑 Medias
         uses: lowlighter/metrics@latest
