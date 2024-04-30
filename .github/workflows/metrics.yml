@@ -67,7 +67,7 @@ jobs:
           plugin_music_limit: 6
           plugin_music_mode: recent
           plugin_music_played_at: yes
-          plugin_music_playlist: https://open.spotify.com/embed/playlist/69gzjQcRJvfSnA1Rf8bhAK
+          plugin_music_playlist: https://open.spotify.com/embed/playlist/6qQwnl5AuJfdMY4RG769he
           plugin_music_provider: spotify
           plugin_music_token: "${{ secrets.CLIENT_ID }}, ${{ secrets.CLIENT_SECRET }}, ${{ secrets.REFRESH_TOKEN }}"
           plugin_music_time_range: short
