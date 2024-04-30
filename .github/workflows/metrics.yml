@@ -22,7 +22,7 @@ jobs:
           base: header, activity, community, repositories
           config_timezone: America/Toronto
           base_indepth: yes
-          config_order: base.header, isocalendar, languages, topics
+          config_order: base.header, base.activity, base.community, base.repositories, isocalendar, languages, topics
           plugin_repositories: yes
           plugin_repositories_featured: nixos-config-main, react-native-instagram-clone, amber-train
           plugin_isocalendar: yes
