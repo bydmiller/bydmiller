@@ -22,7 +22,7 @@ jobs:
           base: header
           config_timezone: America/Toronto
           base_indepth: yes
-          config_order: base.header, isocalendar, languages, topics
+          config_order: base.header, isocalendar, languages, topics, repositories, habits, fortune
           plugin_repositories: yes
           plugin_repositories_featured: nixos-config-main, react-native-instagram-clone, amber-train
           plugin_isocalendar: yes
@@ -41,6 +41,14 @@ jobs:
           plugin_topics_limit: 0
           plugin_topics_mode: icons
           plugin_topics_sort: stars
+          plugin_fortune: yes
+          plugin_habits: yes
+          plugin_habits_charts_type: classic
+          plugin_habits_days: 14
+          plugin_habits_facts: yes
+          plugin_habits_from: 200
+          plugin_habits_languages_limit: 8
+          plugin_habits_languages_threshold: 0%
 
       - name: 🦑 Medias
         uses: lowlighter/metrics@latest
@@ -73,4 +81,4 @@ jobs:
           plugin_pagespeed: yes
           plugin_pagespeed_screenshot: yes
           plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
-          plugin_pagespeed_url: https://linudev-sage.vercel.app/ # https://sukhmansingh.netlify.app/
+          plugin_pagespeed_url: https://sukhmansingh.netlify.app/about
