@@ -73,4 +73,4 @@ jobs:
           plugin_pagespeed: yes
           plugin_pagespeed_screenshot: yes
           plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
-          plugin_pagespeed_url: https://sukhmansingh.netlify.app/
+          plugin_pagespeed_url: https://linudev-sage.vercel.app/ # https://sukhmansingh.netlify.app/
