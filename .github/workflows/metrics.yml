@@ -22,7 +22,7 @@ jobs:
           base: header
           config_timezone: America/Toronto
           base_indepth: yes
-          config_order: base.header, isocalendar, languages, topics, repositories, habits, fortune
+          config_order: base.header, isocalendar, languages, topics, repositories, habits
           plugin_repositories: yes
           plugin_repositories_featured: nixos-config-main, react-native-instagram-clone, amber-train
           plugin_isocalendar: yes
@@ -40,8 +40,7 @@ jobs:
           plugin_topics: yes
           plugin_topics_limit: 0
           plugin_topics_mode: icons
-          plugin_topics_sort: stars
-          plugin_fortune: yes
+          plugin_topics_sort: stars 
           plugin_habits: yes
           plugin_habits_charts_type: classic
           plugin_habits_days: 14
