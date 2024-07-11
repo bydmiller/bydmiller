@@ -22,7 +22,7 @@ jobs:
           base: header
           config_timezone: America/Toronto
           base_indepth: yes
-          config_order: base.header, isocalendar, languages, topics, repositories, habits, wakatime
+          config_order: base.header, habits, topics, languages, repositories, wakatime
           plugin_repositories: yes
           plugin_repositories_featured: nixos-config-main, react-native-instagram-clone, amber-train
           plugin_languages: yes
@@ -45,6 +45,7 @@ jobs:
           plugin_habits_days: 14
           plugin_habits_facts: yes
           plugin_habits_from: 200
+          plugin_habits_charts: yes
           plugin_habits_languages_limit: 8
           plugin_habits_languages_threshold: 0%   
           plugin_wakatime: yes
