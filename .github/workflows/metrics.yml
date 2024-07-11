@@ -22,7 +22,8 @@ jobs:
           base: header
           config_timezone: America/Toronto
           base_indepth: yes
-          config_order: base.header, habits, topics, languages, repositories, wakatime
+          config_order: base.header, isocalender, habits, topics, languages, repositories, wakatime
+          plugin_isocalendar: yes
           plugin_repositories: yes
           plugin_repositories_featured: nixos-config-main, react-native-instagram-clone, amber-train
           plugin_languages: yes
@@ -63,8 +64,7 @@ jobs:
           base: ""
           base_hireable: yes
           config_timezone: America/Toronto
-          config_order: pagespeed, isocalendar, music, anilist 
-          plugin_isocalendar: yes
+          config_order: pagespeed, music, anilist 
           plugin_anilist: yes
           plugin_anilist_limit: 2
           plugin_anilist_limit_characters: 22
