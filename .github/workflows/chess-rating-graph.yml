@@ -16,5 +16,5 @@ jobs:
         uses: mmzeynalli/chess-rating-chart@v1
         with:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          CHESS_COM_USERNAME: your_chess_com_username
-          LICHESS_USERNAME: your_lichess_username
+          CHESS_COM_USERNAME: eoth2
+          # LICHESS_USERNAME: your_lichess_username
