@@ -2,6 +2,8 @@ name: Update chess rating graph
 on:
   schedule: # Run workflow automatically
     - cron: '0 0 * * *' # Runs every day, at 00:00 UTC
+  # 💡 The following line lets you run workflow manually from the action tab!
+  workflow_dispatch:
 permissions:
   contents: write # To write the generated contents to the readme
 
